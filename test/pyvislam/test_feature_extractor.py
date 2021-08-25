@@ -23,4 +23,3 @@ def test_feature_extractor_example_1():
     assert len(keypoints) >= 4
     assert len(descriptors) >= 4
 
-
