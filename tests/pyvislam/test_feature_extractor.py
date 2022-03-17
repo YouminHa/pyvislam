@@ -1,8 +1,7 @@
-
 import cv2
 import numpy as np
 
-from pyvislam.feature import feature_extractor
+from pyvislam import feature_extractor
 
 def test_feature_extractor_example_1():
     fe = feature_extractor.FeatureExtractor()
